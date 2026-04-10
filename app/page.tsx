@@ -34,12 +34,12 @@ export default async function Home() {
 
       <div className="mt-16 p-8 bg-gray-50 dark:bg-gray-900 rounded-2xl">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-          About Engineer on Fire
+          About Engineering Fire
         </h2>
         <p className="text-gray-600 dark:text-gray-300">
-          This blog explores the intersection of engineering, software development, and systems thinking. 
-          From deep technical dives to philosophical musings on building robust systems, we cover what it 
-          means to be an engineer in the modern world.
+          This blog explores the intersection of software engineering, system design, and scalable architecture. 
+          From deep technical dives to practical guides on building robust systems, we cover the art and science 
+          of engineering in the modern world.
         </p>
         <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="text-center p-4 bg-white dark:bg-gray-800 rounded-lg">

@@ -8,23 +8,23 @@ import { Footer } from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Engineer on Fire',
-  description: 'A technical blog by an engineer passionate about software development, systems thinking, and building things that matter.',
-  keywords: ['engineering', 'software', 'development', 'technology', 'blog'],
-  authors: [{ name: 'Engineer on Fire' }],
+  title: 'Engineering Fire',
+  description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
+  keywords: ['engineering', 'software', 'development', 'technology', 'blog', 'system design'],
+  authors: [{ name: 'Engineering Fire' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://engineeronfire.com',
-    title: 'Engineer on Fire',
-    description: 'A technical blog by an engineer passionate about software development, systems thinking, and building things that matter.',
-    siteName: 'Engineer on Fire',
+    url: 'https://engineering-fire.blog',
+    title: 'Engineering Fire',
+    description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
+    siteName: 'Engineering Fire',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Engineer on Fire',
-    description: 'A technical blog by an engineer passionate about software development, systems thinking, and building things that matter.',
-    creator: '@engineeronfire',
+    title: 'Engineering Fire',
+    description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
+    creator: '@engineeringfire',
   },
 }
 

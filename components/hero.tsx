@@ -3,11 +3,11 @@ export function Hero() {
     <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 p-8 md:p-12">
       <div className="relative z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-          Engineer on Fire
+          Engineering Fire
         </h1>
         <p className="text-xl text-primary-100 mb-8 max-w-2xl">
-          Igniting passion for software engineering, systems thinking, and 
-          building things that withstand the test of time.
+          Igniting passion for software engineering, system design, and 
+          building robust, scalable systems.
         </p>
         <div className="flex flex-wrap gap-4">
           <a

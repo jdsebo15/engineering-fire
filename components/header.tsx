@@ -25,7 +25,7 @@ export function Header() {
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500" />
               <span className="text-xl font-bold text-gray-900 dark:text-white">
-                Engineer on Fire
+                Engineering Fire
               </span>
             </Link>
           </div>

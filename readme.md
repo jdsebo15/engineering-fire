@@ -1,6 +1,6 @@
-# Engineer on Fire
+# Engineering Fire
 
-A technical blog by an engineer passionate about software development, systems thinking, and building things that matter.
+A technical blog exploring software engineering, system design, and building robust, scalable systems.
 
 ## Tech Stack
 - **Framework**: Next.js 14 (App Router)

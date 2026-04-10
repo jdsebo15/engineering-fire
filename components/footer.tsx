@@ -5,7 +5,7 @@ const socialLinks = [
   { name: 'GitHub', href: 'https://github.com', icon: Github },
   { name: 'Twitter', href: 'https://twitter.com', icon: Twitter },
   { name: 'LinkedIn', href: 'https://linkedin.com', icon: Linkedin },
-  { name: 'Email', href: 'mailto:hello@engineeronfire.com', icon: Mail },
+  { name: 'Email', href: 'mailto:hello@engineering-fire.blog', icon: Mail },
 ]
 
 const footerLinks = [
@@ -45,12 +45,12 @@ export function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500" />
               <span className="text-xl font-bold text-gray-900 dark:text-white">
-                Engineer on Fire
+                Engineering Fire
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
-              A technical blog exploring software engineering, systems thinking, 
-              and the art of building robust, scalable systems.
+              A technical blog exploring software engineering, system design, 
+              and building robust, scalable systems.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
@@ -92,7 +92,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-300 dark:border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {new Date().getFullYear()} Engineer on Fire. All rights reserved.
+              © {new Date().getFullYear()} Engineering Fire. All rights reserved.
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
               Built with Next.js, Tailwind CSS, and ❤️
