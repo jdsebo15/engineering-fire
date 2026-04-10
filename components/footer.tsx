@@ -5,7 +5,7 @@ const socialLinks = [
   { name: 'GitHub', href: 'https://github.com', icon: Github },
   { name: 'Twitter', href: 'https://twitter.com', icon: Twitter },
   { name: 'LinkedIn', href: 'https://linkedin.com', icon: Linkedin },
-  { name: 'Email', href: 'mailto:hello@engineering-fire.blog', icon: Mail },
+  { name: 'Email', href: 'mailto:hello@engineeringfire.blog', icon: Mail },
 ]
 
 const footerLinks = [

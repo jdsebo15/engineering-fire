@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://engineering-fire.blog',
+    url: 'https://engineeringfire.blog',
     title: 'Engineering Fire',
     description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
     siteName: 'Engineering Fire',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Engineering Fire',
     description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
-    creator: '@engineeringfire',
+    creator: '@engineeringfireblog',
   },
 }
 
