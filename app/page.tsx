@@ -3,53 +3,90 @@ export default async function Home() {
     <div className="max-w-3xl mx-auto">
       <div className="text-center mb-12">
         <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-primary-100 to-amber-100 dark:from-primary-900/30 dark:to-amber-900/30 flex items-center justify-center mb-8">
-          <span className="text-8xl">👨‍💻</span>
+          <span className="text-8xl">⚗️</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
           About Me
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-300">
-          Engineer on the path to Financial Independence, Retire Early (FIRE)
+          Chemical engineer applying systems thinking to life design and financial independence
         </p>
       </div>
       
       <div className="prose prose-lg dark:prose-invert max-w-none">
+        <div className="p-6 mb-8 bg-gradient-to-r from-primary-50 to-amber-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-primary-200 dark:border-gray-700">
+          <p className="text-lg italic text-gray-700 dark:text-gray-300">
+            "I'm a 29-year-old chemical engineer applying a systems approach to everything outside the plant: 
+            pursuing financial independence and engineering a life I actually designed."
+          </p>
+        </div>
+        
         <p>
-          Hello! I'm an engineer passionate about building things—both in code and in life. 
-          This site documents my journey toward Financial Independence, Retire Early (FIRE) 
-          while working in the tech industry.
+          This blog is the log — the analytical, unfiltered record of what's working, what isn't, and why.
         </p>
         
-        <h2>My Engineering Journey</h2>
         <p>
-          With over a decade in software engineering, I've worked on everything from 
-          startup MVPs to enterprise-scale systems. My expertise spans full-stack development, 
-          system architecture, and team leadership.
+          No name. No brand. Just the work.
         </p>
         
-        <h2>The FIRE Path</h2>
+        <h2>The Systems Approach</h2>
         <p>
-          Like many engineers, I discovered the FIRE movement and realized our skills 
-          give us unique advantages in the pursuit of financial independence. High tech 
-          salaries, stock options, remote work opportunities, and the ability to build 
-          profitable side projects all accelerate the journey.
+          Chemical engineering taught me to see the world as interconnected systems — inputs, outputs, 
+          feedback loops, and optimization. I apply that same analytical framework to personal finance, 
+          career development, and life design.
         </p>
         
-        <h2>What I Write About</h2>
+        <h2>Financial Independence as an Engineering Problem</h2>
+        <p>
+          FIRE isn't about early retirement in the traditional sense. It's about designing a system 
+          where your assets generate enough passive income to cover your expenses, giving you the 
+          freedom to choose what you work on.
+        </p>
+        
+        <p>
+          As an engineer, I approach this with:
+        </p>
+        
         <ul>
-          <li><strong>Maximizing Tech Income</strong>: Salary negotiation, career progression, remote work optimization</li>
-          <li><strong>Smart Investing for Engineers</strong>: Stock options, RSUs, 401(k) strategies, index funds</li>
-          <li><strong>Engineering Side Hustles</strong>: Building profitable projects, freelancing, consulting</li>
-          <li><strong>Wealth Building Strategies</strong>: FIRE calculations, savings rates, portfolio construction</li>
-          <li><strong>Intentional Living</strong>: Designing a life that aligns with your values</li>
+          <li><strong>Mass & Energy Balances</strong>: Tracking income, expenses, savings rates</li>
+          <li><strong>Process Optimization</strong>: Maximizing efficiency in spending and investing</li>
+          <li><strong>Control Systems</strong>: Building feedback loops to stay on track</li>
+          <li><strong>Risk Analysis</strong>: Evaluating investment strategies and career moves</li>
+          <li><strong>Scale-up Principles</strong>: Growing side projects into sustainable income streams</li>
         </ul>
         
-        <h2>Current Focus</h2>
+        <h2>What You'll Find Here</h2>
         <p>
-          I'm currently focused on building multiple income streams while optimizing 
-          my investment portfolio. The goal is reaching financial independence within 
-          the next 5-7 years while continuing to work on projects I'm passionate about.
+          Raw data, experiments, failures, and occasional successes. This isn't financial advice — 
+          it's a process engineer's notebook documenting the attempt to design a better life.
         </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">⚗️ Engineering Mindset</h3>
+            <p className="text-gray-600 dark:text-gray-300">
+              Applying chemical engineering principles to personal finance, career growth, 
+              and life optimization. Process flows, material balances, and system design.
+            </p>
+          </div>
+          
+          <div className="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">📊 Data-Driven Decisions</h3>
+            <p className="text-gray-600 dark:text-gray-300">
+              Tracking everything. Analyzing what moves the needle. Abandoning what doesn't. 
+              No guru advice — just experiments and results.
+            </p>
+          </div>
+        </div>
+        
+        <h2>Current Systems Under Design</h2>
+        <ul>
+          <li><strong>Income Optimization</strong>: Maximizing engineering salary + side project revenue</li>
+          <li><strong>Expense Engineering</strong>: Building lean systems for housing, transportation, lifestyle</li>
+          <li><strong>Investment Pipeline</strong>: Designing automated flows from income to assets</li>
+          <li><strong>Skill Development</strong>: Continuous improvement as an engineer and investor</li>
+          <li><strong>Life Architecture</strong>: Intentional design of time, relationships, and purpose</li>
+        </ul>
         
         <div className="p-6 bg-gradient-to-r from-primary-50 to-amber-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-primary-200 dark:border-gray-700 mt-8">
           <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Let's Connect</h3>
