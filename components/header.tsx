@@ -6,11 +6,9 @@ import { useTheme } from 'next-themes'
 import { Menu, X, Sun, Moon } from 'lucide-react'
 
 const navigation = [
-  { name: 'Home', href: '/' },
+  { name: 'About Me', href: '/' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Contact Me', href: '/contact' },
 ]
 
 export function Header() {
