@@ -1,14 +1,23 @@
 # Engineering Fire
 
-A technical blog exploring software engineering, system design, and building robust, scalable systems.
+An engineer's journey to Financial Independence, Retire Early (FIRE). 
+Practical strategies for building wealth through tech careers, smart investing, and intentional living.
+
+## About This Blog
+
+Engineering Fire focuses on helping technical professionals achieve financial independence through:
+
+- **💰 Maximizing Tech Income**: Salary negotiation, career progression, remote work optimization
+- **📈 Smart Investing**: Stock options, RSUs, 401(k) optimization, index funds, real estate
+- **⚡ Engineering Side Hustles**: Building profitable projects, freelancing, consulting
+- **🚀 Accelerated Wealth Building**: FIRE strategies tailored for engineers
 
 ## Tech Stack
 - **Framework**: Next.js 14 (App Router)
 - **Styling**: Tailwind CSS
 - **Content**: MDX for blog posts
-- **Deployment**: Vercel (or Netlify)
-- **Analytics**: Plausible/Umami
-- **Comments**: Giscus (GitHub Discussions)
+- **Deployment**: Vercel
+- **Domain**: engineeringfire.blog
 
 ## Getting Started
 
@@ -22,29 +31,27 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Project Structure
 
 ```
-engineer-on-fire/
+engineering-fire/
 ├── app/                    # Next.js app router
-│   ├── (blog)/            # Blog routes
-│   ├── (pages)/           # Static pages
+│   ├── blog/              # Blog routes
 │   ├── layout.tsx         # Root layout
 │   └── page.tsx           # Homepage
 ├── components/            # React components
-├── content/              # MDX blog posts
+├── content/              # MDX blog posts (coming soon)
 ├── lib/                  # Utilities
-├── public/               # Static assets
-└── styles/               # Global styles
+└── public/               # Static assets
 ```
 
-## Writing Posts
+## Writing Posts (Coming Soon)
 
 Create `.mdx` files in `content/posts/` with frontmatter:
 
 ```mdx
 ---
-title: "My First Post"
+title: "Maximizing Your Tech Salary"
 date: "2024-01-01"
-description: "A brief description"
-tags: ["engineering", "software"]
+description: "Strategies for negotiating higher compensation packages"
+tags: ["career", "salary", "negotiation", "FIRE"]
 ---
 ```
 

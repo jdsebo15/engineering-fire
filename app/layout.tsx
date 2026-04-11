@@ -9,21 +9,21 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Engineering Fire',
-  description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
-  keywords: ['engineering', 'software', 'development', 'technology', 'blog', 'system design'],
+  description: 'An engineer\'s journey to Financial Independence, Retire Early (FIRE). Practical strategies for building wealth through tech careers, smart investing, and intentional living.',
+  keywords: ['FIRE', 'financial independence', 'retire early', 'engineering', 'software engineering', 'investing', 'personal finance', 'wealth building', 'tech careers', 'side hustles'],
   authors: [{ name: 'Engineering Fire' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://engineeringfire.blog',
     title: 'Engineering Fire',
-    description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
+    description: 'An engineer\'s journey to Financial Independence, Retire Early (FIRE). Practical strategies for building wealth through tech careers, smart investing, and intentional living.',
     siteName: 'Engineering Fire',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Engineering Fire',
-    description: 'A technical blog exploring software engineering, systems thinking, and building robust, scalable systems.',
+    description: 'An engineer\'s journey to Financial Independence, Retire Early (FIRE). Practical strategies for building wealth through tech careers, smart investing, and intentional living.',
     creator: '@engineeringfireblog',
   },
 }
