@@ -9,44 +9,26 @@ export default function ContactPage() {
           Let's talk about FIRE, engineering, or anything interesting
         </p>
       </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+
+      <div className="mb-12">
         <div className="p-6 bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700">
           <div className="text-4xl mb-4">📧</div>
           <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Email</h3>
           <p className="text-gray-600 dark:text-gray-300 mb-4">
             For serious inquiries, collaborations, or detailed discussions
           </p>
-          <a 
-            href="mailto:hello@engineeringfire.blog" 
+          <a
+            href="mailto:hello@engineeringfire.blog"
             className="text-primary-600 dark:text-primary-400 hover:underline font-medium"
           >
             hello@engineeringfire.blog
           </a>
         </div>
-        
-        <div className="p-6 bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700">
-          <div className="text-4xl mb-4">💬</div>
-          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Social</h3>
-          <p className="text-gray-600 dark:text-gray-300 mb-4">
-            Follow along for updates, thoughts, and casual conversations
-          </p>
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-500">Twitter/X:</span>
-              <span className="font-medium">@engineeringfire</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-500">GitHub:</span>
-              <span className="font-medium">github.com/engineeringfire</span>
-            </div>
-          </div>
-        </div>
       </div>
-      
+
       <div className="p-8 bg-gradient-to-r from-primary-50 to-amber-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-primary-200 dark:border-gray-700">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send a Message</h2>
-        
+
         <form className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
@@ -60,7 +42,7 @@ export default function ContactPage() {
               placeholder="John Doe"
             />
           </div>
-          
+
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Your Email
@@ -73,7 +55,7 @@ export default function ContactPage() {
               placeholder="john@example.com"
             />
           </div>
-          
+
           <div>
             <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Subject
@@ -90,7 +72,7 @@ export default function ContactPage() {
               <option value="other">Other</option>
             </select>
           </div>
-          
+
           <div>
             <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Message
@@ -103,7 +85,7 @@ export default function ContactPage() {
               placeholder="What would you like to discuss?"
             />
           </div>
-          
+
           <button
             type="submit"
             className="w-full px-6 py-3 bg-gradient-to-r from-primary-600 to-amber-600 hover:from-primary-700 hover:to-amber-700 text-white font-medium rounded-lg transition-all"
@@ -111,12 +93,12 @@ export default function ContactPage() {
             Send Message
           </button>
         </form>
-        
+
         <p className="mt-6 text-sm text-gray-500 dark:text-gray-400 text-center">
           I typically respond within 24-48 hours. For urgent matters, please use email directly.
         </p>
       </div>
-      
+
       <div className="mt-12 text-center text-gray-500 dark:text-gray-400">
         <p>Looking forward to connecting with you! 🔥</p>
       </div>
