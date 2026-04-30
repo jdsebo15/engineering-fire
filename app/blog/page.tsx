@@ -1,6 +1,6 @@
 import { getPosts } from '@/lib/posts'
 import Link from 'next/link'
-import { Calendar, Clock, Tag } from 'lucide-react'
+import { Calendar, Clock } from 'lucide-react'
 
 export default async function BlogPage() {
   const posts = await getPosts()
@@ -51,18 +51,6 @@ export default async function BlogPage() {
                   <Clock size={16} className="mr-1" />
                   {post.readingTime || '3 min read'}
                 </div>
-              </div>
-
-              <div className="flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300"
-                  >
-                    <Tag size={12} className="mr-1" />
-                    {tag}
-                  </span>
-                ))}
               </div>
             </div>
 
