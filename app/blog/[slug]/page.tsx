@@ -59,9 +59,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       </header>
 
       <div className="prose prose-lg dark:prose-invert max-w-none text-gray-800 dark:text-gray-200">
-        <div className="whitespace-pre-line">
-          {post.content}
-        </div>
+        {post.content}
       </div>
 
       <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
