@@ -20,6 +20,9 @@ export default async function BlogPostPage({ params }: PageProps) {
     notFound()
   }
 
+  // Split content into paragraphs (split on double newlines)
+  const paragraphs = post.content.split(/\n\n+/).filter(p => p.trim())
+
   return (
     <article className="max-w-3xl mx-auto">
       <div className="mb-8">
@@ -59,7 +62,9 @@ export default async function BlogPostPage({ params }: PageProps) {
       </header>
 
       <div className="prose prose-lg dark:prose-invert max-w-none text-gray-800 dark:text-gray-200">
-        {post.content}
+        {paragraphs.map((para, i) => (
+          <p key={i} className="mb-6">{para}</p>
+        ))}
       </div>
 
       <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
