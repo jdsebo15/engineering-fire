@@ -10,7 +10,8 @@ export default async function Home() {
         </h1>
       </div>
 
-      <div className="prose prose-lg dark:prose-invert max-w-none">
+      <div className="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">
+
         <div className="p-6 mb-8 bg-gradient-to-r from-primary-50 to-amber-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-primary-200 dark:border-gray-700">
           <p className="text-lg italic text-gray-700 dark:text-gray-300">
             "I'm a 29-year-old chemical engineer applying a systems approach to everything outside the plant:
