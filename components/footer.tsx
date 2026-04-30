@@ -8,34 +8,6 @@ const socialLinks = [
   { name: 'Email', href: 'mailto:hello@engineeringfire.blog', icon: Mail },
 ]
 
-const footerLinks = [
-  {
-    title: 'Blog',
-    links: [
-      { name: 'All Posts', href: '/blog' },
-      { name: 'Engineering', href: '/blog/category/engineering' },
-      { name: 'Software', href: '/blog/category/software' },
-      { name: 'Systems', href: '/blog/category/systems' },
-    ],
-  },
-  {
-    title: 'Projects',
-    links: [
-      { name: 'Open Source', href: '/projects/open-source' },
-      { name: 'Tools', href: '/projects/tools' },
-      { name: 'Experiments', href: '/projects/experiments' },
-    ],
-  },
-  {
-    title: 'Legal',
-    links: [
-      { name: 'Privacy Policy', href: '/privacy' },
-      { name: 'Terms of Service', href: '/terms' },
-      { name: 'Cookie Policy', href: '/cookies' },
-    ],
-  },
-]
-
 export function Footer() {
   return (
     <footer className="mt-16 border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
@@ -49,7 +21,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
-              A technical blog exploring software engineering, system design, 
+              A technical blog exploring software engineering, system design,
               and building robust, scalable systems.
             </p>
             <div className="flex space-x-4">
@@ -67,26 +39,6 @@ export function Footer() {
               ))}
             </div>
           </div>
-
-          {footerLinks.map((column) => (
-            <div key={column.title}>
-              <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
-                {column.title}
-              </h3>
-              <ul className="space-y-3">
-                {column.links.map((link) => (
-                  <li key={link.name}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-300 dark:border-gray-700">
