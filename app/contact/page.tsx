@@ -29,7 +29,7 @@ export default function ContactPage() {
       <div className="p-8 bg-gradient-to-r from-primary-50 to-amber-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl border border-primary-200 dark:border-gray-700">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send a Message</h2>
 
-        <form className="space-y-6">
+        <form action="https://formspree.io/f/mdabnyzk" method="POST" className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Your Name
